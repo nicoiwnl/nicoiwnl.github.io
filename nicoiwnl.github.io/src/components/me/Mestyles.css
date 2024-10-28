@@ -1,0 +1,103 @@
+@keyframes borderColorChange {
+    0% {
+        border-color: rgb(255, 0, 0); /* Rojo */
+    }
+    25% {
+        border-color: rgb(0, 255, 0); /* Verde */
+    }
+    50% {
+        border-color: rgb(0, 0, 255); /* Azul */
+    }
+    75% {
+        border-color: rgb(255, 255, 0); /* Amarillo */
+    }
+    100% {
+        border-color: rgb(255, 0, 0); /* Rojo */
+    }
+}
+
+.circularImage {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border: 5px solid rgb(255, 0, 0); /* Valor inicial del borde */
+    animation: borderColorChange 10s infinite; /* Aplica la animación */
+}
+.Contenedor{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    
+    min-height: 500px;
+
+    .hero{
+        max-width: 200px;
+        
+    }
+
+    span {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+
+        a{
+            margin: 0;
+            
+        }
+        img{
+            width: 50px;
+            height: 50px;
+        }
+
+    }
+    a{
+        width: fit-content;
+        align-self: center;
+    }
+    button{
+        background-color: var(--btn-color);
+        color: var(--btn-text-color);
+        border: none;
+        border-radius: 20px;
+        width: 250px;
+        height: 50px;
+        font-size: 20px;
+        font-weight: bold;
+        box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+        transition: box-shadow 200mx ease-in-out, tranform 200ms ease-in-out; 
+        margin-top: 10px;
+    }
+    button:hover{
+        transform: scale(1.05);
+    }
+    button:active{
+        transform: translateY(2px);
+        box-shadow: 0 2px 2px rgba(0,0,0,0.25);
+    }
+}
+
+.colorContenedor{
+    position: relative;
+}
+
+.colorModo{
+    position: absolute;
+}
+
+.descripcion{
+    max-width: 60ch;
+    text-align: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+

@@ -1,0 +1,80 @@
+.proyectos{
+    gap: 30px;
+}
+
+.proyectosContainer{
+
+    p{
+    max-width: 60ch;
+    text-align: center;
+        
+    span {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+
+        a{
+            margin: 0;
+            
+        }
+    }
+}
+}
+
+.drive{
+    max-width: 50px;
+    align-self: center;
+    background-color: var(--btn-color);
+    border-radius: 20px;
+}
+
+.imgproyecto{
+    max-width: 400px;
+    align-self: center;
+    background-color: var(--btn-color);
+    border-radius: 20px;
+}
+.Contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    min-height: 500px;
+    
+
+    span {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+
+        a{
+            margin: 0;
+            
+        }
+
+    }
+    a{
+        width: fit-content;
+        align-self: center;
+    }
+    button{
+        background-color: var(--btn-color);
+        color: var(--btn-text-color);
+        border: none;
+        border-radius: 20px;
+        width: 250px;
+        height: 50px;
+        font-size: 20px;
+        font-weight: bold;
+        box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+        transition: box-shadow 200mx ease-in-out, tranform 200ms ease-in-out; 
+        margin-top: 10px;
+    }
+    button:hover{
+        transform: scale(1.05);
+    }
+    button:active{
+        transform: translateY(2px);
+        box-shadow: 0 2px 2px rgba(0,0,0,0.25);
+    }
+}
