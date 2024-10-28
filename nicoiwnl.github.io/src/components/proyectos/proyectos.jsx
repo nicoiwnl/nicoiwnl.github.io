@@ -21,7 +21,7 @@ import PELIS from '../../assets/pelis.webp';
 function Proyectos() {
 
   const redirect = () => {
-    window.open('https://drive.google.com/drive/folders/1_l6fxTyMrJHUgGWcQJ4vS5LFKXFlk1ao?usp=drive_link', '_blank');
+    window.open('https://drive.google.com/drive/folders/1_l6fxTyMrJHUgGWcQJ4vS5LFKXFlk1ao?usp=sharing ', '_blank');
   }
   const redirect1 = () => {
     window.open('https://drive.google.com/drive/u/0/folders/1NmTg0hVmyIWM8altc5zwkQo1rs63l6dS', '_blank');
@@ -52,8 +52,8 @@ function Proyectos() {
           <img className='drive' src={GH} alt="Drive" />
           </a>
           <p>
-            Sistema de gestion de inventario y ventas, realizado para una empresa comercializadora la cual buscaba un sistema completo que le ayudara
-            en sus tareas diarias, se implemento Home + Catalogo de Disponibilidad Online.(No se encuentra en linea ni version final debido a que es un proyecto privado)
+          Sistema de gestión de inventario y ventas, realizado para una empresa comercializadora que buscaba un sistema completo para asistir en sus tareas diarias. Se implementó una página de inicio 
+          (Home) y un catálogo de disponibilidad en línea. (No se encuentra en línea ni en versión final, ya que es un proyecto privado).
           </p>
           <br/>
           <span>
@@ -77,8 +77,8 @@ function Proyectos() {
           <img className='drive' src={GH} alt="Drive" />
           </a>
           <p>
-            Trabajo realizado para actividad curricular Base de Datos, se solicito crear un sistema conectado a una base de datos y que funcionara el 
-            traspaso de datos entre la BD y el sistema. No existen datos debido a que la interconexion se dio por medio de XAMPP.
+          Trabajo realizado para la actividad curricular de Base de Datos. Se solicitó crear un sistema conectado a una base de datos y que permitiera el traspaso de datos entre la
+          BD y el sistema. No existen datos almacenados, ya que la interconexión se realizó mediante XAMPP.
           </p>
           <br/>
           <span>
@@ -97,11 +97,12 @@ function Proyectos() {
           <h2>Buscador de Peliculas</h2>
           <img className='imgproyecto' src={PELIS} alt="peliculas" />
           <br></br>
-          <a onClick={redirect2} target="_blank" rel="noopener noreferrer">
+          <a onClick={redirect3} target="_blank" rel="noopener noreferrer">
           <img className='drive' src={GH} alt="GH" />
           </a>
           <p>
-            Pagina realizada por curso Udemy actualizada para 2024 debido a librerias obsoletas, se utilizo la API TMDB la cual permite buscar peliculas y series, ademas de mostrar informacion detallada de cada una.
+          Página realizada a partir de un curso de Udemy, actualizada para 2024 debido a librerías obsoletas. 
+          Se utilizó la API de TMDB, la cual permite buscar películas y series, además de mostrar información detallada de cada una.
           </p>
           <br/>
           <span>
@@ -118,15 +119,15 @@ function Proyectos() {
 
 
         <div className="proyecto4">
-          <h2>Pagina Web Halcón Seguridad</h2>
+          <h2>Página Web Halcón Seguridad</h2>
           <img className='imgproyecto' src={HalconImg} alt="Halcon" />
           <br></br>
           <a onClick={redirect4} target="_blank" rel="noopener noreferrer">
           <img className='drive' src={GH} alt="Drive" />
           </a>
           <p>
-            Pagina realizada para una empresa de seguridad NO TERMINADA, se solicito permiso al dueño mientras cuando se realizo un reemplazo, 
-            si el dueño quisiera se podria aplicar un sistema de administracion tanto de cursos como atención al cliente.
+          Página realizada para una empresa de seguridad (NO TERMINADA). Se solicitó permiso al dueño al realizar un reemplazo.
+          Si el dueño lo desea, se podría implementar un sistema de administración tanto para los cursos como para la atención al cliente.
           </p>
           <br/>
           <span>
@@ -139,13 +140,13 @@ function Proyectos() {
         <br/>
 
         <div className="proyecto5">
-          <h2>Aplicación Movil para Pacientes de HRT</h2>
+          <h2>Aplicación Móvil para Pacientes de HRT</h2>
           <img className='imgproyecto' src={AppLogo} alt="AppLogo" />
           <br></br>
           
           <p>
-            Proyecto de Titulo en desarrollo diseñado para ser utilizado en el Hospital Regional de Talca y todo Chile, 
-            actualmente se encuentra en fase de Investigación y Desarrollo de Prototipo, se espera que para el 2025 se encuentre desplegada y en su Fase Final.
+          Proyecto de título en desarrollo, diseñado para ser utilizado en el Hospital Regional de Talca y en todo Chile. Actualmente, se encuentra en fase de investigación 
+          y desarrollo de prototipo, y se espera que para el 2025 esté desplegado y en su fase final.
           </p>
           <br/>
           <span>
@@ -163,7 +164,7 @@ function Proyectos() {
           <h2>Documentos e Informes Universitarios</h2>
           <br></br>
           <p>
-            Si gustas ver la documentación de algunos trabajos o informes universitarios, puedes acceder al drive de Google donde se encuentran alojados.
+          Si deseas ver algunas de mis presentaciones o informes universitarios, tanto grupales como individuales, puedes acceder a Google Drive, donde están alojados.
           </p>
           <img className= 'drive' src= {DriveLogo} onClick={redirect}></img>
           

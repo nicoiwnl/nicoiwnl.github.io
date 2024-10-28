@@ -7,9 +7,8 @@ import IG from '../../assets/IG.png';
 import FB from '../../assets/FB.png';
 import GH from '../../assets/GH.png';
 import CV from '../../assets/CV-NicolasOpazo.pdf';
-import { Button } from '@mui/material'; 
 
-function Me({ toggleTheme }) {
+function Me() {
     return (
         <section id='Me' className= 'Contenedor'> 
             <div className='ColorContenedor'>
@@ -18,7 +17,10 @@ function Me({ toggleTheme }) {
             </div>
             <div className='Info'>
               <h1> Nicolás<br/>Opazo</h1>
-              <h2>Estudiante Universitario</h2>
+              <br/>
+              <h2>Estudiante en Busca de Practica </h2>
+              <h2>Carrera A Fin </h2>
+              <br/>
               <span>
                 <a href='https://www.linkedin.com/in/nicol%C3%A1s-opazo-212852179/' target='_blank'>
                   <img src={LK} alt="LK" />
@@ -35,19 +37,25 @@ function Me({ toggleTheme }) {
               </span>
               <p className='descripcion'>
                 Hola! Soy un estudiante de Ingeniería Civil en Informática de la Universidad Catolica del Maule,
-                con animos 
-                de aprender cosas nuevas en el mundo de la Tecnología e Información.
-                Me gusta la música, los videojuegos y el descenso. 
+                Tengo conocimientos en Python y SQL, Desarrollo Web e Inteligencia de Negocios.
+                Como hobbies me gusta escuchar música, los videojuegos y el descenso. 
                 Actualmente estoy aprendiendo Desarrollo de Aplicaciones Moviles e Inteligencia Artificial
-                <br/>
-                <br/>
-                <br/>
+              <br/>
+              <br />
+              
                 
-                Te invito a ver mi CV y mis proyectos en GitHub, que tengas un buen dia.
+                
+                Te invito a ver mi CV, mis proyectos de GitHub y los cursos que he realizado, que tengas un buen dia.
               </p>
               <a href={CV}>
                 <button className='hover' download>Descargar CV</button>
               </a>
+              <br></br>
+              <a href='https://drive.google.com/drive/folders/10r80GhhXL7x2QlXBEjFWsku6epTDDTcc?usp=drive_link'>
+                <button className='hover' >Certificados</button>
+              </a>
+              
+              
               <br />
               <br />
               <br />

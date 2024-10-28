@@ -71,6 +71,7 @@
         box-shadow: 0 4px 4px rgba(0,0,0,0.25);
         transition: box-shadow 200mx ease-in-out, tranform 200ms ease-in-out; 
         margin-top: 10px;
+        
     }
     button:hover{
         transform: scale(1.05);
